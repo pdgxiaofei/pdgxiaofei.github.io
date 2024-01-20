@@ -16,21 +16,24 @@
   <meta name="author" content="Tuqi">
   <meta name="keywords" content="">
   
-    <meta name="description" content="相信大多数人有如下的需求：  需要在特定的时间点进行关机或者休眠，比如你在下载一个大文件，耗时比较久，想在23：00自动关机 打开特定APP想30分钟后自动关机或者休眠，比如家里有熊娃娃使用优酷看动画片，你想每次打开优酷的时候，30分钟后自动关机。  于是乎，我就让ChatGpt帮我实现以上需求了。 我想让你充当专家级别的软件开发人员。您只会回复我你认为最为标准权威的答案。请注意，您的回答应该是简">
+    <meta name="description" content="U盘制作系统Rufus写盘工具 Rufus - 轻松创建 USB 启动盘 从上面网站进去直接下载便携版   直接安装 插上U盘 打开rufus软件，选择U盘，选择ISO文件，其余默认就可以开始了   等待完成就可以拔出U盘了">
 <meta property="og:type" content="article">
-<meta property="og:title" content="使用ChatGpt写一段Python定时关机脚本">
-<meta property="og:url" content="https://blog.xiaopingguo.tech/2023/04/28/%E4%BD%BF%E7%94%A8ChatGpt%E5%86%99%E4%B8%80%E6%AE%B5Python%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E6%88%96%E8%80%85%E4%BC%91%E8%84%9A%E6%9C%AC/index.html">
+<meta property="og:title" content="U盘制作系统">
+<meta property="og:url" content="https://blog.xiaopingguo.tech/2024/01/20/U%E7%9B%98%E5%88%B6%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.html">
 <meta property="og:site_name" content="Tuqi">
-<meta property="og:description" content="相信大多数人有如下的需求：  需要在特定的时间点进行关机或者休眠，比如你在下载一个大文件，耗时比较久，想在23：00自动关机 打开特定APP想30分钟后自动关机或者休眠，比如家里有熊娃娃使用优酷看动画片，你想每次打开优酷的时候，30分钟后自动关机。  于是乎，我就让ChatGpt帮我实现以上需求了。 我想让你充当专家级别的软件开发人员。您只会回复我你认为最为标准权威的答案。请注意，您的回答应该是简">
+<meta property="og:description" content="U盘制作系统Rufus写盘工具 Rufus - 轻松创建 USB 启动盘 从上面网站进去直接下载便携版   直接安装 插上U盘 打开rufus软件，选择U盘，选择ISO文件，其余默认就可以开始了   等待完成就可以拔出U盘了">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-04-28T13:43:16.000Z">
-<meta property="article:modified_time" content="2024-01-20T13:12:30.032Z">
+<meta property="og:image" content="https://blog.xiaopingguo.tech/2024/01/20/U%E7%9B%98%E5%88%B6%E4%BD%9C%E7%B3%BB%E7%BB%9F/image-20240120131922174.png">
+<meta property="og:image" content="https://blog.xiaopingguo.tech/2024/01/20/U%E7%9B%98%E5%88%B6%E4%BD%9C%E7%B3%BB%E7%BB%9F/image-20240120135217999.png">
+<meta property="article:published_time" content="2024-01-20T13:42:37.000Z">
+<meta property="article:modified_time" content="2024-01-20T13:45:28.639Z">
 <meta property="article:author" content="Tuqi">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://blog.xiaopingguo.tech/2024/01/20/U%E7%9B%98%E5%88%B6%E4%BD%9C%E7%B3%BB%E7%BB%9F/image-20240120131922174.png">
   
   
   
-  <title>使用ChatGpt写一段Python定时关机脚本 - Tuqi</title>
+  <title>U盘制作系统 - Tuqi</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -172,7 +175,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="使用ChatGpt写一段Python定时关机脚本"></span>
+            <span id="subtitle" data-typed-text="U盘制作系统"></span>
           
         </div>
 
@@ -183,8 +186,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-04-28 21:43" pubdate>
-          2023年4月28日 晚上
+        <time datetime="2024-01-20 21:42" pubdate>
+          2024年1月20日 晚上
         </time>
       </span>
     
@@ -195,7 +198,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.4k 字
+          98 字
         
       </span>
     
@@ -206,7 +209,7 @@
         
         
         
-          12 分钟
+          1 分钟
         
       </span>
     
@@ -244,66 +247,20 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">使用ChatGpt写一段Python定时关机脚本</h1>
+            <h1 style="display: none">U盘制作系统</h1>
             
             
               <div class="markdown-body">
                 
-                <p>相信大多数人有如下的需求：</p>
-<ul>
-<li>需要在特定的时间点进行关机或者休眠，比如你在下载一个大文件，耗时比较久，想在23：00自动关机</li>
-<li>打开特定APP想30分钟后自动关机或者休眠，比如家里有熊娃娃使用优酷看动画片，你想每次打开优酷的时候，30分钟后自动关机。</li>
-</ul>
-<p>于是乎，我就让ChatGpt帮我实现以上需求了。</p>
-<div class="code-wrapper"><pre><code class="hljs markdown">我想让你充当专家级别的软件开发人员。您只会回复我你认为最为标准权威的答案。请注意，您的回答应该是简明扼要的，在需要的时候你可以回复表格，千万记住不需要附带任何额外的解释。首先请回复：我现在需要一个python脚本。需求如下：
-1.目标是定时关机
-2.可以在运行的时候设置具体时间关机，如：python shutdown.py  22:10 就是22点10分准时关机。
-3.可以设置倒计时关机，如：python shutdown.py 30 就是30分钟之后关机
-4.在控制台每秒打印日志，还有多少秒即将关机</code></pre></div>
+                <h1 id="U盘制作系统"><a href="#U盘制作系统" class="headerlink" title="U盘制作系统"></a>U盘制作系统</h1><p>Rufus写盘工具 <a target="_blank" rel="noopener" href="https://rufus.ie/zh/">Rufus - 轻松创建 USB 启动盘</a></p>
+<p>从上面网站进去直接下载便携版</p>
+<img src="/2024/01/20/U%E7%9B%98%E5%88%B6%E4%BD%9C%E7%B3%BB%E7%BB%9F/image-20240120131922174.png" srcset="/img/loading.gif" lazyload class="">
 
+<p>直接安装</p>
+<p>插上U盘 打开rufus软件，选择U盘，选择ISO文件，其余默认就可以开始了</p>
+<img src="/2024/01/20/U%E7%9B%98%E5%88%B6%E4%BD%9C%E7%B3%BB%E7%BB%9F/image-20240120135217999.png" srcset="/img/loading.gif" lazyload class="">
 
-
-<div class="code-wrapper"><pre><code class="hljs python"><span class="hljs-keyword">import</span> os
-<span class="hljs-keyword">import</span> sys
-<span class="hljs-keyword">import</span> time
-
-<span class="hljs-keyword">def</span> <span class="hljs-title function_">shutdown_timer</span>(<span class="hljs-params">time_arg</span>):
-    <span class="hljs-keyword">if</span> <span class="hljs-string">&#x27;:&#x27;</span> <span class="hljs-keyword">in</span> time_arg:
-        <span class="hljs-comment"># 设置具体时间关机</span>
-        shutdown_time = time_arg.split(<span class="hljs-string">&#x27;:&#x27;</span>)
-        shutdown_hour = <span class="hljs-built_in">int</span>(shutdown_time[<span class="hljs-number">0</span>])
-        shutdown_minute = <span class="hljs-built_in">int</span>(shutdown_time[<span class="hljs-number">1</span>])
-        current_time = time.localtime()
-        current_hour = current_time.tm_hour
-        current_minute = current_time.tm_min
-        <span class="hljs-keyword">if</span> shutdown_hour &lt; current_hour <span class="hljs-keyword">or</span> (shutdown_hour == current_hour <span class="hljs-keyword">and</span> shutdown_minute &lt;= current_minute):
-            shutdown_hour += <span class="hljs-number">24</span>
-        shutdown_seconds = (shutdown_hour - current_hour) * <span class="hljs-number">3600</span> + (shutdown_minute - current_minute) * <span class="hljs-number">60</span>
-    <span class="hljs-keyword">else</span>:
-        <span class="hljs-comment"># 设置倒计时关机</span>
-        shutdown_seconds = <span class="hljs-built_in">int</span>(time_arg) * <span class="hljs-number">60</span>
-
-    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(shutdown_seconds, <span class="hljs-number">0</span>, -<span class="hljs-number">1</span>):
-        <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;<span class="hljs-subst">&#123;i&#125;</span> seconds until shutdown.&quot;</span>)
-        time.sleep(<span class="hljs-number">1</span>)
-
-    os.system(<span class="hljs-string">&quot;shutdown /s /t 1&quot;</span>)
-
-<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&#x27;__main__&#x27;</span>:
-    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(sys.argv) == <span class="hljs-number">2</span>:
-        shutdown_timer(sys.argv[<span class="hljs-number">1</span>])
-    <span class="hljs-keyword">elif</span> <span class="hljs-built_in">len</span>(sys.argv) == <span class="hljs-number">3</span>:
-        shutdown_time = sys.argv[<span class="hljs-number">2</span>]
-        shutdown_timer(shutdown_time)
-    <span class="hljs-keyword">else</span>:
-        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;Usage: python shutdown.py [minutes|hh:mm]&quot;</span>)</code></pre></div>
-
-<p>ChatGpt给的脚本可以直接运行，并且经过我的验证可以直接使用</p>
-<p>你可以在命令行中运行此脚本，例如：</p>
-<div class="code-wrapper"><pre><code class="hljs vim"><span class="hljs-keyword">python</span> shutdown.<span class="hljs-keyword">py</span> <span class="hljs-number">22</span>:<span class="hljs-number">10</span>
-<span class="hljs-keyword">python</span> shutdown.<span class="hljs-keyword">py</span> <span class="hljs-number">30</span></code></pre></div>
-
-<p>脚本将在控制台每秒打印日志，显示还有多少秒即将关机。在指定的时间或倒计时结束后，脚本将执行关机命令。</p>
+<p>等待完成就可以拔出U盘了</p>
 
                 
               </div>
@@ -321,8 +278,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>使用ChatGpt写一段Python定时关机脚本</div>
-      <div>https://blog.xiaopingguo.tech/2023/04/28/使用ChatGpt写一段Python定时关机或者休脚本/</div>
+      <div>U盘制作系统</div>
+      <div>https://blog.xiaopingguo.tech/2024/01/20/U盘制作系统/</div>
     </div>
     <div class="license-meta">
       
@@ -334,7 +291,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年4月28日</div>
+          <div>2024年1月20日</div>
         </div>
       
       
@@ -378,18 +335,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/01/20/U%E7%9B%98%E5%88%B6%E4%BD%9C%E7%B3%BB%E7%BB%9F/" title="U盘制作系统">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">U盘制作系统</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/04/27/%E5%A6%82%E4%BD%95%E5%B0%86%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E5%9C%A8Iphone%E6%88%96%E8%80%85ipad%E4%B8%8A%E4%BD%BF%E7%94%A8%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E5%81%9A%E6%88%90%E4%B8%80%E4%B8%AAAPP/" title="如何将一个网站在Iphone或者ipad上使用快捷指令做成一个APP">
-                        <span class="hidden-mobile">如何将一个网站在Iphone或者ipad上使用快捷指令做成一个APP</span>
+                      <a href="/2023/04/28/%E4%BD%BF%E7%94%A8ChatGpt%E5%86%99%E4%B8%80%E6%AE%B5Python%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E6%88%96%E8%80%85%E4%BC%91%E8%84%9A%E6%9C%AC/" title="使用ChatGpt写一段Python定时关机脚本">
+                        <span class="hidden-mobile">使用ChatGpt写一段Python定时关机脚本</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -412,7 +363,7 @@
         var options = Object.assign(
           {"clientID":"b3d565a61d1b1dc0e61f","clientSecret":"f86851fdf5da6eeb8836766869187a90a335c44f","repo":"pdgxiaofei.github.io","owner":"pdgxiaofei","admin":["pdgxiaofei"],"language":"zh-CN","labels":["Gitalk"],"perPage":10,"pagerDirection":"last","distractionFreeMode":false,"createIssueManually":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"},
           {
-            id: '5682423ce98e9706fb136ffe00d97d2d'
+            id: 'd2cd9d8f47b80b981071ce3d925510ad'
           }
         )
         var gitalk = new Gitalk(options);
