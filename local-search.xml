@@ -60,7 +60,7 @@
     <link href="/2023/04/05/%E4%BD%BF%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <url>/2023/04/05/%E4%BD%BF%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     
-    <content type="html"><![CDATA[<img src="/2023/04/05/%E4%BD%BF%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/helloword_hexo.PNG" class="" title="This is an example image"><p><a href="https://blog.csdn.net/yaorongke/article/details/119089190">https://blog.csdn.net/yaorongke/article/details/119089190</a></p><p>hexo g 编译到本地<br>hexo s 打开本地服务器<br>部署到GitHub hexo g -d</p>]]></content>
+    <content type="html"><![CDATA[<img src="/2023/04/05/%E4%BD%BF%E7%94%A8hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/helloword_hexo.PNG" class="" title="This is an example image"><p><a href="https://blog.csdn.net/yaorongke/article/details/119089190">https://blog.csdn.net/yaorongke/article/details/119089190</a></p><p>hexo g 编译到本地<br>hexo s 打开本地服务器<br>hexo new “My New Post” 新建文章<br>部署到GitHub hexo g -d</p>]]></content>
     
     
     
