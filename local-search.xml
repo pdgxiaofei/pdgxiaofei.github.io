@@ -4,6 +4,32 @@
   
   
   <entry>
+    <title>CF测速地址创建</title>
+    <link href="/2024/01/27/CF%E6%B5%8B%E9%80%9F%E5%9C%B0%E5%9D%80%E5%88%9B%E5%BB%BA/"/>
+    <url>/2024/01/27/CF%E6%B5%8B%E9%80%9F%E5%9C%B0%E5%9D%80%E5%88%9B%E5%BB%BA/</url>
+    
+    <content type="html"><![CDATA[<p>需要准备一个托管到CF的域名</p><img src="/2024/01/27/CF%E6%B5%8B%E9%80%9F%E5%9C%B0%E5%9D%80%E5%88%9B%E5%BB%BA/image-20240122180957504.png" class=""><p>在这里创建一个workers脚本，内容如下</p><div class="code-wrapper"><pre><code class="hljs shell">addEventListener(&quot;fetch&quot;, event =&gt; &#123;  let url = new URL(event.request.url);  if (url.pathname == &quot;/test&quot; &amp;&amp; url.search == &quot;&quot;) &#123;    url.href=&quot;https://cachefly.cachefly.net/200mb.test&quot;    let request = new Request(url, event.request);    event.respondWith(fetch(request));  &#125;&#125;)</code></pre></div><p>之后点击保存并部署，看到200的<a href="https://so.csdn.net/so/search?q=http&spm=1001.2101.3001.7020">http</a>相应即可</p><p>接下来添加自定义域（custom domain）</p><img src="/2024/01/27/CF%E6%B5%8B%E9%80%9F%E5%9C%B0%E5%9D%80%E5%88%9B%E5%BB%BA/image-20240122181023831.png" class=""><p>不需要创建任何类型的实例，直接写出，例如0823.ppp.com，你只需要保证 ppp.com在你的CF上托管即可，证书会<a href="https://so.csdn.net/so/search?q=%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE&spm=1001.2101.3001.7020">自动配置</a></p><p>保存之后就可以通过<a href="https://0823.ppp.com/test%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%EF%BC%8C%E5%85%B6%E4%B8%AD/test%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%9C%A8%E8%84%9A%E6%9C%AC%E4%B8%AD%E8%87%AA%E5%AE%9A%E4%B9%89%EF%BC%8C%E8%BF%99%E5%8F%AA%E6%98%AF%E4%B8%80%E4%B8%AA[%E9%87%8D%E5%AE%9A%E5%90%91](https://so.csdn.net/so/search?q=%E9%87%8D%E5%AE%9A%E5%90%91&spm=1001.2101.3001.7020)%E5%88%B0https://cachefly.cachefly.net/200mb.test%E7%9A%84%E7%9B%91%E5%90%AC%E8%84%9A%E6%9C%AC%EF%BC%8C%E4%BD%A0%E4%B9%9F%E5%8F%AF%E4%BB%A5%E7%94%A850mb">https://0823.ppp.com/test下载文件，其中/test你可以在脚本中自定义，这只是一个[重定向](https://so.csdn.net/so/search?q=重定向&amp;spm=1001.2101.3001.7020)到https://cachefly.cachefly.net/200mb.test的监听脚本，你也可以用50mb</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>电脑麦克风声音小的解决办法</title>
+    <link href="/2024/01/25/%E7%94%B5%E8%84%91%E9%BA%A6%E5%85%8B%E9%A3%8E%E5%A3%B0%E9%9F%B3%E5%B0%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <url>/2024/01/25/%E7%94%B5%E8%84%91%E9%BA%A6%E5%85%8B%E9%A3%8E%E5%A3%B0%E9%9F%B3%E5%B0%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<img src="/2024/01/25/%E7%94%B5%E8%84%91%E9%BA%A6%E5%85%8B%E9%A3%8E%E5%A3%B0%E9%9F%B3%E5%B0%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/image-20240122181105498.png" class=""><img src="/2024/01/25/%E7%94%B5%E8%84%91%E9%BA%A6%E5%85%8B%E9%A3%8E%E5%A3%B0%E9%9F%B3%E5%B0%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/image-20240122181139802.png" class="">]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>U盘制作系统</title>
     <link href="/2024/01/20/U%E7%9B%98%E5%88%B6%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     <url>/2024/01/20/U%E7%9B%98%E5%88%B6%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
